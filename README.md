@@ -1,7 +1,7 @@
 # Hacker News Best Stories API
 
 An ASP.NET Core REST API that retrieves the highest-scoring stories from the Hacker News API.
-The API accepts a requested number of stories e.g. n=5 and returns the top results ordered by scorein descending order.
+The API accepts a requested number of stories e.g. n=5 and returns the top results ordered by score in descending order.
 
 ## Getting Started
 
@@ -19,7 +19,8 @@ Returns the requested number of highest-scoring available Hacker News stories.
 
 **Example request**
 
-https://localhost:<port>/api/stories/best?n=5
+https://localhost:7176/api/stories/best?n=5
+(replacing 7176 as appropriate)
 
 ### Validation
 
